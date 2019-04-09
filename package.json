@@ -1,0 +1,40 @@
+{
+  "name": "ui-copy-button",
+  "version": "0.1.0",
+  "description": "A simple copy button for React.",
+  "main": "dist/CopyButton.js",
+  "repository": "https://github.com/armandocanals/ui-copy-button.git",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "scripts": {
+    "start": "rollup --watch -c",
+    "build": "rollup -c",
+    "test": "NODE_ENV=test jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest-cli": "^24.7.1",
+    "react-dom": "^16.8.6",
+    "react-testing-library": "^6.1.2",
+    "rollup": "^1.9.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-terser": "^4.0.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "author": "Armando Canals",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.jsx$": "babel-jest",
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}
