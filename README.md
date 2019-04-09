@@ -2,8 +2,14 @@
 A (really) simple component to copy text from a selector or from props.
 
 ## Installation
-```
+```sh
 npm i ui-copy-button
+```
+
+### Usage
+```js
+import React from 'react';
+import CopyButton from 'ui-copy-button';
 ```
 
 ## Required Props:
@@ -21,26 +27,26 @@ npm i ui-copy-button
 
 ## Usage Examples
 ### Selecting text from an element:
-```
+```html
 <CopyButton elementId="root" />
 ```
 
 ### Selecting text from props:
-```
+```html
 <CopyButton textToCopy="Copied from props!" />
 ```
 
 ### Set a custom class name:
-```
+```html
 <CopyButton className="btn copy" textToCopy="Copied from props!" />
 ```
 
 ### Override button text:
-```
+```html
 <CopyButton elementId="root">I'm a copy button</CopyButton>
 ```
 
 ### Call a function when a copy is successful:
-```
+```html
 <CopyButton textToCopy="Text copied from props!" onCopied={someCustomAction} />
 ```
