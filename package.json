@@ -30,11 +30,5 @@
     "react": "^16.8.6"
   },
   "author": "Armando Canals",
-  "license": "MIT",
-  "jest": {
-    "transform": {
-      "^.+\\.jsx$": "babel-jest",
-      "^.+\\.js$": "babel-jest"
-    }
-  }
+  "license": "MIT"
 }
