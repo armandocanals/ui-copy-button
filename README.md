@@ -1,4 +1,6 @@
-# ui-copy-button
+# ui-copy-button 
+![version](https://img.shields.io/npm/v/ui-copy-button.svg?cacheSeconds=2592000)
+
 A (really) simple component to copy text from a selector or from props.
 
 ## Installation
@@ -11,7 +13,6 @@ npm i ui-copy-button
 import React from 'react';
 import CopyButton from 'ui-copy-button';
 ```
-
 ## Required Props:
 | Props  | Description |
 | ------------- | ------------- |
