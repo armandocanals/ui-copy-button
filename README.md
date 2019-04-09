@@ -4,7 +4,7 @@ A (really) simple component to copy text from a selector or from props.
 ## Required Props:
 | Props  | Description |
 | ------------- | ------------- |
-| textToCopy | (String) text to copy to clipboard - required if `selector` prop is not set |
+| textToCopy | (String) text to copy to clipboard - required if `elementId` prop is not set |
 | elementId  | (String) DOM ID of element on the page - required if `textToCopy` prop is not set  |
 
 ## Optional Props:
