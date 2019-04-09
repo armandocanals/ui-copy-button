@@ -1,5 +1,6 @@
 # ui-copy-button 
-![version](https://img.shields.io/npm/v/ui-copy-button.svg?cacheSeconds=2592000)
+[![version](https://img.shields.io/npm/v/ui-copy-button.svg?cacheSeconds=2592000)](https://www.npmjs.com/package/ui-copy-button)
+[]()
 
 A (really) simple component to copy text from a selector or from props.
 
