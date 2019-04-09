@@ -1,6 +1,11 @@
 # ui-copy-button
 A (really) simple component to copy text from a selector or from props.
 
+## Installation
+```
+npm i ui-copy-button
+```
+
 ## Required Props:
 | Props  | Description |
 | ------------- | ------------- |
